@@ -57,6 +57,7 @@ p {
   font-weight: bold;
   text-shadow: 1px 7px 5px black;
   z-index: 2;
+  position: fixed;
 
 }
 
@@ -201,8 +202,8 @@ p {
     }
     .navbar-brand{
         /* position:absolute; */
-        position: fixed;
-        right: 10%;
+        position: sticky;
+        top: 0%;
     }
     .testimonial-text{
       font-size: 2rem;
